@@ -1,0 +1,183 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/* Header Stuff Here */
+header {
+    background-color: #ffd6d6;
+    padding: 1rem 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #013e7a;
+}
+header p {
+    margin: 0;
+    color: #013e7a;
+    letter-spacing: .5px;
+}
+
+/* nav stuff goes here */
+nav {
+    background-color: #ebeaea;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #013e7a;
+    font-weight: 500;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color: #013e7a;
+        color: #ebeaea;
+}
+nav a:hover {
+    color: #a52069;
+}
+
+/* Stuff for the Main */
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+    color: #a52069;
+}
+
+main h2 {
+    color: #013e7a;
+    margin-bottom: .2rem;
+}
+
+main p {
+    color: #2f3133;
+    margin: 0 0 .3rem 0;
+}
+
+main ol {
+    padding: .5rem 3vw;
+    background-color: #EFEFEF;
+}
+
+main dl dt {
+    color: #a52069;
+    font-weight: 500;
+}
+
+main dl dd {
+    color: #013e7a;
+    font-size: .9rem;
+}
+
+main ul {
+    list-style-type: circle;
+    background-color: #ebeaea;
+    width: 12.5rem;
+    padding: .5rem 3rem .5rem 3rem;
+    border: 1px solid #013e7a;
+    border-radius: .5rem;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main address {
+    font-style: normal;
+}
+
+main a {
+    color: #a52069;
+}
+
+main a:hover {
+    color: #013e7a;
+}
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #013e7a;
+}
+
+.myForm fieldset {
+    border: 1px solid #013e7a;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+.myForm legend {
+    color: #013e7a;
+    font-size: .8rem;
+}
+.myForm label {
+    margin: .5rem;
+}
+
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm [type=email], .myForm textarea {
+    display: block;
+}
+
+.myForm [type=text], .myForm [type=tel], .myForm select, .myForm [type=email], .myForm textarea {
+    border: solid 1px #888;
+    padding: .3rem;
+    width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Stuff Here */
+footer {
+    background-color: #ffd6d6;
+    text-align: center;
+    color: #013e7a;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: #a52069;
+}
+
