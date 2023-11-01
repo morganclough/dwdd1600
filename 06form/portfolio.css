@@ -155,12 +155,26 @@ div.gallery figcaption {
     border: solid 1px #888;
     padding: .3rem;
     width: 250px;
+    border-radius: .3rem; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.myForm textarea {
+    height: 6rem;
 }
 
+.myForm :required {
+    background-color: rgba(165,32,105,0.1);
+}
 
-
-
-
+.myForm [type=submit] {
+    background-color: #013e7a;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    margin: 1rem 0 0 1vw;
+}
 
 
 
